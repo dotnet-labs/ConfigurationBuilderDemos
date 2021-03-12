@@ -1,5 +1,7 @@
 # `ConfigurationBuilder` Demos
 
+<a href='https://ko-fi.com/changhuixu' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi3.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
 ![Binding an array](./array-binding-configuration.png)
 
 ## Binding a JSON Array to an Array Object
@@ -11,3 +13,9 @@ ASP.NET Core uses configuration providers to read configuration key-value pairs 
 We usually put some generic configuration data in the `appsettings.json` file, and put environment-specific configurations in the `appsettings.{Environment}.json` file and/or in the environment variables. In this way, the system can override the settings based on the runtime environment when the application starts. For example, a connection string set in the `appsettings.json` file will be used for the development environment if its value is not set in the `appsettings.Development.json` file. On the other hand, if a connection string is set in the `appsettings.Production.json` file, then the value in the `appsettings.json` file will be overridden and the value in the `appsettings.Production.json` file will be used in the production environment.
 
 I also traced back and found this behavior was first proposed in [this GitHub issue](https://github.com/aspnet/Configuration/issues/115#issuecomment-95433424).
+
+## License
+
+Feel free to use the code in this repository as it is under MIT license.
+
+<a href='https://ko-fi.com/changhuixu' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi3.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
